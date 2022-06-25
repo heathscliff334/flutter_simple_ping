@@ -1,0 +1,27 @@
+name: flutter_simple_ping
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  animate_do: ^2.1.0
+  cupertino_icons: ^1.0.2
+  dart_ipify: ^1.1.1
+  dart_ping: ^6.1.2
+  flutter:
+    sdk: flutter
+  flutter_bounceable: ^1.0.3
+  font_awesome_flutter: ^10.1.0
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
